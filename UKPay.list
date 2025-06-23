@@ -2,3 +2,9 @@ DOMAIN-KEYWORD,curve
 DOMAIN-KEYWORD,payzilch
 DOMAIN-KEYWORD,sumup
 DOMAIN-KEYWORD,monzo
+DOMAIN-SUFFIX,trading212.com
+DOMAIN-SUFFIX,live.services.trading212.com
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,api.authy.com
+DOMAIN-SUFFIX,api.mixpanel.com
+DOMAIN-SUFFIX,ifastgb.com
