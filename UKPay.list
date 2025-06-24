@@ -1,5 +1,16 @@
+# Trading 212 App 分流规则
+
+# 主域名和API域名
 DOMAIN-SUFFIX,trading212.com
+DOMAIN-SUFFIX,trading212.co.uk
+DOMAIN-SUFFIX,trading212api.com
+
+# 分析及跟踪
+DOMAIN-SUFFIX,analytics.trading212.com
+DOMAIN-SUFFIX,tracking.trading212.com
+DOMAIN,trading212equities.s3.eu-central-1.amazonaws.com
 DOMAIN-SUFFIX,live.services.trading212.com
+
 DOMAIN-SUFFIX,wise.com
 DOMAIN-SUFFIX,api.authy.com
 DOMAIN-SUFFIX,api.mixpanel.com
@@ -8,4 +19,3 @@ DOMAIN-KEYWORD,curve
 DOMAIN-KEYWORD,payzilch
 DOMAIN-KEYWORD,sumup
 DOMAIN-KEYWORD,monzo
-DOMAIN-KEYWORD,trading212equities
