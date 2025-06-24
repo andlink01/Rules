@@ -1,6 +1,20 @@
-DOMAIN-KEYWORD,usercentrics
-DOMAIN-KEYWORD,prodregistryv2
-DOMAIN-KEYWORD,braze
-DOMAIN-KEYWORD,number26
-DOMAIN-KEYWORD,tech26
-DOMAIN-KEYWORD,n26
+# N26 App 分流规则
+DOMAIN,api.usercentrics.eu
+
+# N26 主域名和 API 域名
+DOMAIN-SUFFIX,n26.com
+DOMAIN-SUFFIX,api.tech26.de
+DOMAIN-SUFFIX,tech26.de
+
+# N26 CDN及资源域名
+DOMAIN-SUFFIX,cdn.n26.com 
+DOMAIN-SUFFIX,static.n26.io 
+DOMAIN-SUFFIX,cdn.number26.de
+
+# N26 安全和身份验证服务
+DOMAIN-SUFFIX,auth0.com
+
+# 其他相关服务
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,pushwoosh.com
+DOMAIN-SUFFIX,app.adjust.com
