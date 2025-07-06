@@ -1,14 +1,14 @@
 # Google Gemini
-  DOMAIN-SUFFIX,bard.google.com,Proxy
-  DOMAIN-SUFFIX,gemini.google.com,Proxy
+  DOMAIN-SUFFIX,bard.google.com
+  DOMAIN-SUFFIX,gemini.google.com
   # Google DeepMind
-  DOMAIN-SUFFIX,deepmind.com,Proxy
-  DOMAIN-SUFFIX,deepmind.google,Proxy
+  DOMAIN-SUFFIX,deepmind.com
+  DOMAIN-SUFFIX,deepmind.google
   # Google Generative Language API
-  DOMAIN-SUFFIX,generativelanguage.googleapis.com,Proxy
-  DOMAIN-REGEX,^.*-pa\.googleapis\.com$,Proxy
+  DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  DOMAIN-REGEX,^.*-pa\.googleapis\.com$
   # Google AI Studio
-  DOMAIN,ai.google.dev,Proxy
-  DOMAIN-SUFFIX,makersuite.google.com,Proxy
-  DOMAIN-REGEX,^.*-pa\.clients6\.google\.com$,Proxy
-  DOMAIN-SUFFIX,generativeai.google,Proxy
+  DOMAIN,ai.google.dev
+  DOMAIN-SUFFIX,makersuite.google.com
+  DOMAIN-REGEX,^.*-pa\.clients6\.google\.com$
+  DOMAIN-SUFFIX,generativeai.google
