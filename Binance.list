@@ -1,6 +1,5 @@
-Binance (币安) 规则集
 # [Rule]
-# Binance - 深度分流规则 (中文注释版)
+# Binance - 深度分流规则 (增强版)
 
 # -- 核心域名与网站 --
 DOMAIN-SUFFIX, binance.com
@@ -12,6 +11,11 @@ DOMAIN-SUFFIX, binance.info
 DOMAIN-SUFFIX, binance.net
 DOMAIN-SUFFIX, binance.org
 DOMAIN-SUFFIX, binance.vision
+DOMAIN-SUFFIX, binance.cloud
+DOMAIN-SUFFIX, binancecnt.com
+DOMAIN-SUFFIX, binancefuture.com
+DOMAIN-SUFFIX, bnappzh.co
+DOMAIN-SUFFIX, bnbzh.ac
 DOMAIN-SUFFIX, bnbsmartchain.com
 DOMAIN-SUFFIX, bnbchain.org
 
@@ -47,6 +51,12 @@ DOMAIN-SUFFIX, safepal.io
 DOMAIN-SUFFIX, coinmarketcap.com
 DOMAIN-SUFFIX, bscan.com
 DOMAIN-SUFFIX, bscscan.com
+DOMAIN-SUFFIX, bntrace.com
+DOMAIN-SUFFIX, saasexch.cc
+DOMAIN-SUFFIX, saasexch.com
+
+# -- 第三方分析与跟踪 --
+DOMAIN-SUFFIX, appsflyer.com
 
 # -- IP地址 (可选补充) --
 # IP-CIDR, 3.23.117.0/24
