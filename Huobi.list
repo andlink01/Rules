@@ -1,23 +1,38 @@
-# 火币App分流规则
-DOMAIN,huobi.com.bo
-DOMAIN,huobicfg.s3.ap-northeast-1.amazonaws.com
-DOMAIN,huobicfg.s3.amazonaws.com
+# [Rule]
+# HTX / Huobi
 
-# 主域名
-DOMAIN-SUFFIX,huobi.com
-DOMAIN-SUFFIX,huobigroup.com
-DOMAIN-SUFFIX,hbdm.com
-DOMAIN-SUFFIX,htx.com
+# -- Core & Web --
+DOMAIN-SUFFIX, htx.com
+DOMAIN-SUFFIX, htx.io
+DOMAIN-SUFFIX, htx.net
+DOMAIN-SUFFIX, hbg.com
+DOMAIN-SUFFIX, huobi.com
+DOMAIN-SUFFIX, huobi.io
+DOMAIN-SUFFIX, huobi.pro
+DOMAIN-SUFFIX, huobi.global
+DOMAIN-SUFFIX, huobi.co.kr
 
+# -- API (REST & Websocket) --
+DOMAIN-SUFFIX, hbdm.com
+DOMAIN-SUFFIX, huobi.com.ai
+DOMAIN, api.huobi.de
+DOMAIN, api.huobi.pro
+DOMAIN, api-aws.huobi.pro
+DOMAIN, api-cloud.huobi.co.kr
+DOMAIN, wss.htx.com
+DOMAIN, wss.huobi.com
 
-# API相关
-DOMAIN-SUFFIX,huobiapi.com
-DOMAIN-SUFFIX,cdn-aliyun.com
-DOMAIN-SUFFIX,cdn.huobiapi.com
+# -- CDN & Static Resources --
+DOMAIN-SUFFIX, hbfile.net
+DOMAIN-SUFFIX, htx-file.com
+DOMAIN-SUFFIX, htx-static.com
+DOMAIN-SUFFIX, huobicloud.com
 
-# 其他相关域名
-DOMAIN-SUFFIX,hbg.com
-DOMAIN-SUFFIX,otc.huobi.com
-DOMAIN-SUFFIX,static.huobipro.com
-DOMAIN-SUFFIX,cdn.huobi.pro
-DOMAIN-KEYWORD,htx
+# -- Associated Ecosystem & Support --
+DOMAIN-SUFFIX, hecochain.com
+DOMAIN-SUFFIX, huobiglobal.zendesk.com
+
+# -- IP (Optional Supplement) --
+# IP-CIDR, 52.69.115.51/32
+# IP-CIDR, 52.193.138.38/32
+# IP-CIDR, 18.179.74.94/32
