@@ -1,21 +1,53 @@
-# Trading 212 App 分流规则
+🇬🇧 英国 (United Kingdom)
+# Curve
+DOMAIN-SUFFIX,complyadvantage.com
+DOMAIN-SUFFIX,curve.app
+DOMAIN-SUFFIX,curve.com
 
-# 主域名和API域名
-DOMAIN-SUFFIX,trading212.com
-DOMAIN-SUFFIX,trading212.co.uk
-DOMAIN-SUFFIX,trading212api.com
+# iFast
+DOMAIN-SUFFIX,ifastgb.com
+DOMAIN-SUFFIX,ifastfintech.com
 
-# 分析及跟踪
-DOMAIN-SUFFIX,analytics.trading212.com
-DOMAIN-SUFFIX,tracking.trading212.com
+# Kraken
+DOMAIN,futures.kraken.com
+DOMAIN-SUFFIX,chainalysis.com
+DOMAIN-SUFFIX,elliptic.co
+DOMAIN-SUFFIX,jumio.com
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,kraken.ws
+DOMAIN-SUFFIX,onfido.com
+
+# Monzo
+DOMAIN-SUFFIX,monzo.com
+DOMAIN-SUFFIX,monzo.me
+DOMAIN-SUFFIX,okta.com
+DOMAIN-SUFFIX,prod-ffs.io
+
+# SumUp
+DOMAIN-SUFFIX,adyen.com
+DOMAIN-SUFFIX,sumup.com
+DOMAIN-SUFFIX,sumup.io
+
+# Trading 212
 DOMAIN,trading212equities.s3.eu-central-1.amazonaws.com
 DOMAIN-SUFFIX,live.services.trading212.com
+DOMAIN-SUFFIX,trading212.co.uk
+DOMAIN-SUFFIX,trading212.com
+DOMAIN-SUFFIX,trading212api.com
 
-DOMAIN-SUFFIX,wise.com
+# Wise
 DOMAIN-SUFFIX,api.authy.com
-DOMAIN-SUFFIX,api.mixpanel.com
-DOMAIN-SUFFIX,ifastgb.com
-DOMAIN-KEYWORD,curve
-DOMAIN-KEYWORD,payzilch
-DOMAIN-KEYWORD,sumup
-DOMAIN-KEYWORD,monzo
+DOMAIN-SUFFIX,onfido.com
+DOMAIN-SUFFIX,transferwise.com
+DOMAIN-SUFFIX,wise.com
+
+# Yonder
+DOMAIN-SUFFIX,help.yonder.info
+DOMAIN-SUFFIX,ophelos.com
+DOMAIN-SUFFIX,yonder.com
+
+# Zilch
+DOMAIN,zilch-apigee-zilchexternalstage.apigee.io
+DOMAIN-SUFFIX,experian.co.uk
+DOMAIN-SUFFIX,payzilch.com
+DOMAIN-SUFFIX,transunion.co.uk
