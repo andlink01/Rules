@@ -1,0 +1,58 @@
+Binance (币安) 规则集
+# [Rule]
+# Binance - 深度分流规则 (中文注释版)
+
+# -- 核心域名与网站 --
+DOMAIN-SUFFIX, binance.com
+DOMAIN-SUFFIX, binance.us
+DOMAIN-SUFFIX, binance.co
+DOMAIN-SUFFIX, binance.jp
+DOMAIN-SUFFIX, binance.me
+DOMAIN-SUFFIX, binance.info
+DOMAIN-SUFFIX, binance.net
+DOMAIN-SUFFIX, binance.org
+DOMAIN-SUFFIX, binance.vision
+DOMAIN-SUFFIX, bnbsmartchain.com
+DOMAIN-SUFFIX, bnbchain.org
+
+# -- API接口 (交易与数据) --
+DOMAIN, api.binance.com
+DOMAIN, data.binance.com
+DOMAIN-SUFFIX, api.binance.us
+
+# -- 实时行情 (Websocket) --
+DOMAIN, stream.binance.com
+DOMAIN, ws.binance.com
+DOMAIN, fstream.binance.com
+DOMAIN, dstream.binance.com
+DOMAIN-SUFFIX, stream.binance.us
+
+# -- CDN与静态资源 --
+DOMAIN-SUFFIX, bnbstatic.com
+DOMAIN-SUFFIX, binance-static.com
+DOMAIN, bsc-dataseed.binance.org
+DOMAIN, bsc-dataseed1.binance.org
+DOMAIN, bsc-dataseed2.binance.org
+DOMAIN, bsc-dataseed3.binance.org
+DOMAIN, bsc-dataseed4.binance.org
+DOMAIN, bsc-dataseed1.defibit.io
+DOMAIN, bsc-dataseed1.ninicoin.io
+
+# -- 生态系统与关联服务 --
+DOMAIN-SUFFIX, jup.ag
+DOMAIN-SUFFIX, pancakeswap.finance
+DOMAIN-SUFFIX, trustwallet.com
+DOMAIN-SUFFIX, apollox.finance
+DOMAIN-SUFFIX, safepal.io
+DOMAIN-SUFFIX, coinmarketcap.com
+DOMAIN-SUFFIX, bscan.com
+DOMAIN-SUFFIX, bscscan.com
+
+# -- IP地址 (可选补充) --
+# IP-CIDR, 3.23.117.0/24
+# IP-CIDR, 3.123.51.0/24
+# IP-CIDR, 18.204.202.0/24
+# IP-CIDR, 34.232.14.0/24
+# IP-CIDR, 52.5.158.0/24
+# IP-CIDR, 52.20.141.0/24
+# IP-CIDR, 52.87.160.0/24
