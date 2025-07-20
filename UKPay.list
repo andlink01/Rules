@@ -75,6 +75,7 @@ DOMAIN-SUFFIX,transunion.co.uk
 # -- 核心域名与母公司 --
 DOMAIN-SUFFIX, zero.app
 DOMAIN-SUFFIX, bip-group.com
+DOMAIN-SUFFIX, api.zero.co.uk
 
 # -- API接口与后端服务 --
 DOMAIN, api.zero.app
