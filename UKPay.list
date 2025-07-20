@@ -68,3 +68,20 @@ DOMAIN,zilch-apigee-zilchexternalstage.apigee.io
 DOMAIN-SUFFIX,experian.co.uk
 DOMAIN-SUFFIX,payzilch.com
 DOMAIN-SUFFIX,transunion.co.uk
+
+# [Rule]
+# Zero (by Bip) - 深度分流规则 (中文注释版)
+
+# -- 核心域名与母公司 --
+DOMAIN-SUFFIX, zero.app
+DOMAIN-SUFFIX, bip-group.com
+
+# -- API接口与后端服务 --
+DOMAIN, api.zero.app
+DOMAIN, prod.zero.app
+
+# -- 第三方支持与分析服务 --
+DOMAIN-SUFFIX, adasupport.com
+DOMAIN-SUFFIX, appsflyer.com
+DOMAIN-SUFFIX, intercom.io
+DOMAIN-SUFFIX, sentry.io
