@@ -69,20 +69,13 @@ DOMAIN-SUFFIX,experian.co.uk
 DOMAIN-SUFFIX,payzilch.com
 DOMAIN-SUFFIX,transunion.co.uk
 
-# [Rule]
-# Zero (by Bip) - 深度分流规则 (中文注释版)
-
-# -- 核心域名与母公司 --
-DOMAIN-SUFFIX, zero.app
-DOMAIN-SUFFIX, bip-group.com
-DOMAIN-SUFFIX, zero.co.uk
-
-# -- API接口与后端服务 --
-DOMAIN, api.zero.app
-DOMAIN, prod.zero.app
-
-# -- 第三方支持与分析服务 --
-DOMAIN-SUFFIX, adasupport.com
-DOMAIN-SUFFIX, appsflyer.com
-DOMAIN-SUFFIX, intercom.io
-DOMAIN-SUFFIX, sentry.io
+# Chase UK
+DOMAIN-SUFFIX,chase.co.uk
+DOMAIN-SUFFIX,chase-fs.co.uk
+DOMAIN-SUFFIX,api.chase.co.uk
+DOMAIN-SUFFIX,iovation.com
+DOMAIN-SUFFIX,forter.com
+DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,fastly-streams.com
+DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,branch.io
