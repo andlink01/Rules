@@ -32,7 +32,6 @@ DOMAIN-SUFFIX,monzo.statuspage.io
 
 # --- 功能性第三方服务 (分析与推送) ---
 DOMAIN-SUFFIX,adjust.com
-DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,braze.eu
 DOMAIN-SUFFIX,braze.com
 
