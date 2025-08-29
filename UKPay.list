@@ -7,15 +7,6 @@ DOMAIN-SUFFIX,curve.com
 DOMAIN-SUFFIX,ifastgb.com
 DOMAIN-SUFFIX,ifastfintech.com
 
-# Kraken
-DOMAIN,futures.kraken.com
-DOMAIN-SUFFIX,chainalysis.com
-DOMAIN-SUFFIX,elliptic.co
-DOMAIN-SUFFIX,jumio.com
-DOMAIN-SUFFIX,kraken.com
-DOMAIN-SUFFIX,kraken.ws
-DOMAIN-SUFFIX,onfido.com
-
 # Monzo (最终完整版)
 
 # --- 核心银行功能 ---
